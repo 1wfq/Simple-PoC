@@ -1,3 +1,7 @@
+⚠️ **WARNING**  
+This PoC is for **educational purposes only**.  
+Unauthorized testing against systems is illegal.
+
 漏洞描述
 本脚本用于验证SpringBlade框架中/api/blade-system/menu/list接口存在的SQL注入漏洞。该漏洞允许攻击者通过未参数化的输入执行任意SQL命令。
 漏洞详情
