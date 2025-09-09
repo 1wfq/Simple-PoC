@@ -40,7 +40,7 @@ def poc(target):
 def banner():
     pass
 def main():
-    parse=argparse.ArgumentParser(description="SpringBlade api/blade-system/menu/list接口存在SQL注入")
+    parse=argparse.ArgumentParser(description="百易云资管系统imaRead.make.php SQL注入 ")
     parse.add_argument('-u','--url',dest='url',type=str,help='please input your link')
     parse.add_argument('-f','--file',dest='file',type=str,help='please input your file path')
     args=parse.parse_args()
